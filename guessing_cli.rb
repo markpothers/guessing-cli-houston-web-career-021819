@@ -1,6 +1,10 @@
 # Code your solution here!
 require "pry"
 
+def exit_game
+  puts "Goodbye!"
+end
+
 def run_guessing_game
   comp_guess = rand(1..6)
   puts "Guess a number between 1 and 6."
@@ -16,11 +20,8 @@ def run_guessing_game
   exit_game
 end
 
-#run_guessing_game
+run_guessing_game
 
 
-def exit_game
-  puts "Goodbye!"
-end
 
-exit_game
+
